@@ -1,0 +1,30 @@
+#menu-toggle {
+    display: none !important;
+}
+
+nav#sidebarMenu{
+    visibility: hidden;
+}
+nav#sidebarMenu {
+}
+
+.navbar-brand{
+    visibility: hidden;
+}
+
+nav.navbar{
+    visibility: hidden;
+}
+
+.d-md-block {
+    display: none;
+}
+
+.sidebar {
+    display: none;
+}
+
+#sidebarMenu {
+    display: none;
+    width: 0;
+}
