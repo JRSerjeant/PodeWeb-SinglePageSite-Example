@@ -2,29 +2,17 @@
     display: none !important;
 }
 
-nav#sidebarMenu{
-    visibility: hidden;
-}
 nav#sidebarMenu {
-}
-
-.navbar-brand{
-    visibility: hidden;
+    display: none !important;
 }
 
 nav.navbar{
     visibility: hidden;
 }
 
-.d-md-block {
-    display: none;
-}
-
-.sidebar {
-    display: none;
-}
-
-#sidebarMenu {
-    display: none;
-    width: 0;
+main[role="main"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: 0 0 100.0% !important;
+    margin-left: 0 !important;
 }
